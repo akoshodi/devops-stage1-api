@@ -26,9 +26,9 @@ $app->get("/health", function (Request $request, Response $response) {
 
 $app->get("/me", function (Request $request, Response $response) {
     $data = [
-        "name" => "Your Full Name",
-        "email" => "you@example.com",
-        "github" => "https://github.com/yourusername",
+        "name" => "Akinwale",
+        "email" => "akoshodi@gmail.com",
+        "github" => "https://github.com/akoshodi",
     ];
     $response->getBody()->write(json_encode($data));
     return $response
